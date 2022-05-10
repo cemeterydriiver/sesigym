@@ -100,7 +100,9 @@ body, .nav, .menu {
 }
 .carro img{
     width: 30%;
-    height: 300px;
+    height: 400px;
+    width: 1368px;
+
 }
 #carroimg{
 }
@@ -117,9 +119,8 @@ transform: rotate(180deg);
 position: relative;
 left: 800px;
 }
-#pontos{
-    width: 15%;
-    height: 15%;
-    position: relative;
-    left: 500px;
+.pontos{
+    flex-direction: row;    
 }
+
+
