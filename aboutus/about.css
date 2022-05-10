@@ -93,7 +93,7 @@ body, .nav, .menu {
 
 /**FUNDO**/
 #fundo{
-    width: 100%;
+    width: 1359px;
     height: 500px;
     position: absolute;
     top: 0px;
@@ -105,9 +105,9 @@ body, .nav, .menu {
     color: rgb(255, 255, 255);
     font-family: helvetica;
     position: absolute;
-    top: 200px;
+    top: 150px;
     font-size: 50px;
-    left: 500px;
+    left: 550px;
 }
 /*CARDS*/
 
@@ -215,7 +215,7 @@ body .container .card .box .content h3 {
 body .container .card .box .content p {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(78, 78, 78);
   z-index: 1;
   transition: 0.5s;
 }
