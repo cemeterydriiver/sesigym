@@ -10,7 +10,7 @@ body {
 }
 /**MENU**/
 .nav {
-    position: absolute;
+    position: fixed;
     top: 15px;
     left: 20px;
     background-color: #219CE1;
