@@ -1,7 +1,7 @@
 //========ÁREA DE VARIÁVEIS======================================
-var img = 0;  //var que indicar por qual imagem começar
-var timer = 6000; //delay da troca de imagens
-let repete; //var para repetir a timing
+var img = 0; 
+var timer = 6000; 
+let repete; 
 
 //===============================================================
 //ALTERAR A IMAGEM SOZINHO APÓS O LOAD DA PÁGINA
@@ -11,40 +11,38 @@ function timing(){
         img = 0;
     }
 switche()
-fadein() //inicia o fade
+fadein() 
 }
-repete = setInterval(timing, timer)   //repetição da func timing
+repete = setInterval(timing, timer)  
 
 //===============================================================
 //FUNÇÕES DO ONCLICK DAS SETAS
-function car0(){   //caso clique na seta pra esquerda
-    clearInterval(repete) //reseta o timer da var repete
-    setTimeout(repete = setInterval(timing, timer), timer) //reseta a var de repetir
-    fadein()  //fadezinho
-    img--          //indica para voltar para a imagem anterior
+function car0(){   
+    clearInterval(repete) 
+    setTimeout(repete = setInterval(timing, timer), timer) 
+    img--          
     if(img == -1){
         img = 2;
     }
-    switche()  //chama a func switche
+    switche()  
 
 }
 
-function car1(){   //caso clique na seta pra direita
-    clearInterval(repete)  //reseta o timer da var repete
-    setTimeout(repete = setInterval(timing, timer), timer) //reseta a var de repetir
-    fadein()
-    img++          //indica para voltar para a imagem anterior
+function car1(){  
+    clearInterval(repete)  
+    setTimeout(repete = setInterval(timing, timer), timer)
+    img++         
     if(img == 3){
         img = 0;
     }
-    switche()  //chama a func switche
+    switche()  
 }
 
 //===============================================================
 //FUNÇÃO PARA INDICAR CADA VALOR DA VAR IMG
 function switche(){ 
     switch(img){
-        case 0:   //caso img == 0, imagem2...
+        case 0:   
             document.getElementById("carroimg").src = "imgcar2.jpeg";
         
         break;
@@ -73,3 +71,5 @@ function fadeout(){
     document.getElementById('carroimg').style.opacity = 1;
 }
  */
+
+//scroll

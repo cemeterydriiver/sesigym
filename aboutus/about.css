@@ -206,7 +206,7 @@ body .container .card .box .content h2 {
 
 body .container .card .box .content h3 {
   font-size: 1.8rem;
-  color: rgb(0, 0, 0);
+  color: rgb(43, 42, 42);
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 15px;
@@ -215,7 +215,7 @@ body .container .card .box .content h3 {
 body .container .card .box .content p {
   font-size: 1rem;
   font-weight: 300;
-  color: rgb(78, 78, 78);
+  color: rgb(255, 255, 255);
   z-index: 1;
   transition: 0.5s;
 }
