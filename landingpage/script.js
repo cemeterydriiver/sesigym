@@ -46,30 +46,30 @@ function switche(){
     switch(img){
         case 0:   //caso img == 0, imagem2...
             document.getElementById("carroimg").src = "imgcar2.jpeg";
-            document.getElementById("pontos").src = "pontos dir.png";
+        
         break;
         case 1:
             document.getElementById("carroimg").src = "imgcar1.jpg";
-            document.getElementById("pontos").src = "pontos esq.png";
+           
         break;
         case 2:
             document.getElementById("carroimg").src = "imgcar3.jpg";
-            document.getElementById("pontos").src = "pontos meio.png";
+          
         break;
     }
 }
 
-//===============================================================
-//ANIMAÇÃO DE FADEIN FADEOUT
+/*ANIMAÇÃO DE FADEIN FADEOUT
 function fadein(){
-    setTimeout(fade, timer - 1000)  //delayzin do timer - tempo do fade
+    setTimeout(fade, timer - 100)  //delayzin do timer - tempo do fade
     function fade(){
-    document.getElementById('carroimg').style.transition = "opacity 1.5s"; //demora pro fade chegar em 0
+    document.getElementById('carroimg').style.transition = "opacity 3.5s"; //demora pro fade chegar em 0
      document.getElementById('carroimg').style.opacity = 0;
     setTimeout(fadeout, 1500)  //delaysinho do tempo q o fade fica
     }
 }
 function fadeout(){
-    document.getElementById('carroimg').style.transition = "opacity 1.5s"; //demora pro fade chegar em 1
+    document.getElementById('carroimg').style.transition = "opacity 3.5s"; //demora pro fade chegar em 1
     document.getElementById('carroimg').style.opacity = 1;
 }
+ */
