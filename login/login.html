@@ -36,7 +36,7 @@
         <label for="password">Senha</label>
         <input type="password" placeholder="Senha" id="password">
         
-        <button><a href="../landingpage/main.html">Entrar!</a></button>
+        <button onclick="clicar()" id="button"><a href="../landingpage/main.html">Entrar!</a></button>
         <div class="social">
           <div class="go"><i class="fab fa-google"></i>  Google</div>
           <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
@@ -44,6 +44,12 @@
     </form>
   </div>
 
-
+<script>
+  function clicar(){
+    var a = window.document.getElementById('button')
+    a.innerText = 'Seja bem-vindo!'
+  }
+</script>
+ 
 </body>
 </html>
