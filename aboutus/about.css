@@ -5,6 +5,7 @@ body {
     background-color: #ffffff;
     font-family: helvetica;
     display: flex;
+
 }
 /**MENU**/
 .nav {
@@ -237,4 +238,76 @@ body .container .card .box .content a:hover {
   background: #fff;
   color: #000;
 }
-/**SCROLL ANIMADO**/
+/**CHECKBOX**/
+#checktxt{
+  position: absolute;
+  top: 1050px;
+  left: 150px;
+  font-size: 30px;
+}
+#check1{
+  
+  position: absolute;
+  top: 1100px;
+  width: 30px;
+  height: 30px;
+  left: 150px;
+}
+#check1txt{
+  position: absolute;
+  top: 1105px;
+  left: 200px;
+  font-size: 20px;
+}
+#check2{
+  position: absolute;
+  top: 1150px;
+  width: 30px;
+  height: 30px;
+  left: 150px;
+}
+#check2txt{
+  position: absolute;
+  top: 1155px;
+  left: 200px;
+  font-size: 20px;
+}
+#check3{
+  position: absolute;
+  top: 1200px;
+  width: 30px;
+  height: 30px;
+  left: 150px;
+}
+#check3txt{
+  position: absolute;
+  top: 1205px;
+  left: 200px;
+  font-size: 20px;
+}
+#check4{
+  position: absolute;
+  top: 1250px;
+  width: 30px;
+  height: 30px;
+  left: 150px;
+}
+#check4txt{
+  position: absolute;
+  top: 1255px;
+  left: 200px;
+  font-size: 20px;
+}
+#check5{
+  position: absolute;
+  top: 1300px;
+  width: 30px;
+  height: 30px;
+  left: 150px;
+}
+#check5txt{
+  position: absolute;
+  top: 1305px;
+  left: 200px;
+  font-size: 20px;
+}
