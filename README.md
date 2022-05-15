@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 
-
-
-
-
-=======
 <h1 align="center">SesiGym🏋️</h1>
 
 >_<p align="center">💻 Projeto escolar, turma de análise e desenvolvimento de sistemas.</p>_
@@ -52,7 +46,5 @@ _🚧espere por mais atualizações..._
 
 
 
-
->>>>>>> 400e365c26b3b6103662c0cd950e35c5da89b843
 
 
