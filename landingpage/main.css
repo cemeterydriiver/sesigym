@@ -145,5 +145,14 @@ left: 800px;
     height: 300px;
     position: absolute;
     top: 400px;
-    left: 50px;
+    right: 130px;
 }
+@keyframes slidein {
+    from {
+      right: 0%;
+    }
+  
+    to {
+      right: 100%;
+    }
+  }

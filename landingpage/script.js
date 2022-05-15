@@ -71,5 +71,10 @@ function fadeout(){
     document.getElementById('carroimg').style.opacity = 1;
 }
  */
-
 //scroll
+function scroll(){
+    const anim = page.getKeyframeAnimationWithName('slidein');
+document.getElementById("img1").style. = "slidein 3s";
+}
+
+
