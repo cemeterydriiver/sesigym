@@ -57,32 +57,10 @@ function switche(){
     }
 }
 
-<<<<<<< HEAD
-/*ANIMAÇÃO DE FADEIN FADEOUT
-function fadein(){
-    setTimeout(fade, timer - 100)  //delayzin do timer - tempo do fade
-    function fade(){
-    document.getElementById('carroimg').style.transition = "opacity 3.5s"; //demora pro fade chegar em 0
-     document.getElementById('carroimg').style.opacity = 0;
-    setTimeout(fadeout, 1500)  //delaysinho do tempo q o fade fica
-    }
-}
-function fadeout(){
-    document.getElementById('carroimg').style.transition = "opacity 3.5s"; //demora pro fade chegar em 1
-    document.getElementById('carroimg').style.opacity = 1;
-}
- */
-//scroll
-function scroll(){
-    const anim = page.getKeyframeAnimationWithName('slidein');
-document.getElementById("img1").style = "slidein 3s";
-}
-=======
 //===============================================================
 //ANIMAÇÃO DE SCROLLZIN
     function scroll1() {
         let id = null;
->>>>>>> 400e365c26b3b6103662c0cd950e35c5da89b843
 
         document.getElementById('img1').style.opacity = 0;
         setTimeout(fade, 200)
