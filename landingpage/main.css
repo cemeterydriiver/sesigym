@@ -137,9 +137,6 @@ left: 800px;
     left: 540px;
     top: 100px;
 }
-.imgs{
-    display: flex;
-}
 #img1{
     width: 550px;
     height: 300px;
@@ -147,12 +144,10 @@ left: 800px;
     top: 400px;
     right: 130px;
 }
-@keyframes slidein {
-    from {
-      right: 0%;
-    }
-  
-    to {
-      right: 100%;
-    }
-  }
+.scroll{
+margin-top: 45%;
+}
+.scroll div{
+    margin-top: 25%;
+    display: flex;
+}

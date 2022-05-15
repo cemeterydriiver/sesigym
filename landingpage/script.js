@@ -57,6 +57,7 @@ function switche(){
     }
 }
 
+<<<<<<< HEAD
 /*ANIMAÇÃO DE FADEIN FADEOUT
 function fadein(){
     setTimeout(fade, timer - 100)  //delayzin do timer - tempo do fade
@@ -76,5 +77,31 @@ function scroll(){
     const anim = page.getKeyframeAnimationWithName('slidein');
 document.getElementById("img1").style = "slidein 3s";
 }
+=======
+//===============================================================
+//ANIMAÇÃO DE SCROLLZIN
+    function scroll1() {
+        let id = null;
+>>>>>>> 400e365c26b3b6103662c0cd950e35c5da89b843
 
+        document.getElementById('img1').style.opacity = 0;
+        setTimeout(fade, 200)
+        function fade(){
+        document.getElementById('img1').style.transition = "opacity 1s";
+        document.getElementById('img1').style.opacity = 1;
+        }
+        
+        const elem = document.getElementById("img1");
+        let pos = -50;
 
+        clearInterval(id);
+        id = setInterval(frame, 10);
+        function frame() {
+          if (pos == 5) {
+            clearInterval(id);
+          } else {
+            pos++;
+            elem.style.right = pos + '%';
+          }
+        }
+      }
