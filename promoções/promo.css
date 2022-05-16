@@ -107,15 +107,18 @@ body, .nav, .menu {
 }
 /**card**/
 .container {
+
     height: 500px;
+    border-radius: 30px;
     width: 1000px;
     position: relative;
-    top: 250px;
+    top: 300px;
     display: flex;
     justify-content: space-between;
 }
 
 .container .card {
+    border-radius: 30px;
     position: relative;
     border-radius: 10px;
 }
@@ -133,19 +136,24 @@ body, .nav, .menu {
 
 .container .card:nth-child(1) .icon {
     background-image: url(banner1.jpg);
+
     position: absolute;
-    background-size: 300px;
+        background-size: 300px;
 }
 
 .container .card:nth-child(2) .icon {
     background-image: url(banner2.jpg);
+
     position: absolute;
+
     background-size: 300px;
 }
 
 .container .card:nth-child(3) .icon {
     background-image: url(banner3.jpg);
+
     position: absolute;
+
     background-size: 300px;
 }
 
@@ -236,7 +244,51 @@ i {
     color: #414141;
 } 
 
-.container a {
+
+.button-5 {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #3d68df;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
     text-decoration: none;
-    color: #414141;
-}
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-5:hover,
+  .button-5:focus {
+    background-color:#6e8feb;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-5:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-5:active {
+    background-color: rgb(19, 83, 165);
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
