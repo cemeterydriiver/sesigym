@@ -107,6 +107,7 @@ body, .nav, .menu {
 }
 /**card**/
 .container {
+    border-radius: 30px;
     width: 1000px;
     position: relative;
     top: 250px;
@@ -115,6 +116,7 @@ body, .nav, .menu {
 }
 
 .container .card {
+    border-radius: 30px;
     position: relative;
     border-radius: 10px;
 }
@@ -131,15 +133,18 @@ body, .nav, .menu {
 }
 
 .container .card:nth-child(1) .icon {
-    background: #6eadd4;
+    background-image: url(banner1.jpg);
+    background-size: 300px;
 }
 
 .container .card:nth-child(2) .icon {
-    background: #6eadd4;
+    background-image: url(banner2.jpg);
+    background-size: 300px;
 }
 
 .container .card:nth-child(3) .icon {
-    background: #6eadd4;;
+    background-image: url(banner3.jpg);
+    background-size: 300px;
 }
 
 
@@ -229,7 +234,4 @@ i {
     color: #414141;
 } 
 
-.container a {
-    text-decoration: none;
-    color: #414141;
-}
+
