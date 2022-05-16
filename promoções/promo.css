@@ -107,6 +107,7 @@ body, .nav, .menu {
 }
 /**card**/
 .container {
+    height: 500px;
     width: 1000px;
     position: relative;
     top: 250px;
@@ -131,15 +132,21 @@ body, .nav, .menu {
 }
 
 .container .card:nth-child(1) .icon {
-    background: #6eadd4;
+    background-image: url(banner1.jpg);
+    position: absolute;
+    background-size: 300px;
 }
 
 .container .card:nth-child(2) .icon {
-    background: #6eadd4;
+    background-image: url(banner2.jpg);
+    position: absolute;
+    background-size: 300px;
 }
 
 .container .card:nth-child(3) .icon {
-    background: #6eadd4;;
+    background-image: url(banner3.jpg);
+    position: absolute;
+    background-size: 300px;
 }
 
 
