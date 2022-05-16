@@ -292,3 +292,25 @@ i {
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }
+/**BLOCKS**/
+#block1{
+    background-color: #219CE1;
+    top: 800px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    width: 550px;
+    height: 150px;
+    left: 100px;
+    border-radius: 30px;
+    transition:all 0.2s ease;
+}
+#block1:hover{
+    background: #36749b;
+    opacity:1;
+    
+    
+}
