@@ -65,7 +65,7 @@ function switche(){
         document.getElementById('img1').style.opacity = 0;
         setTimeout(fade, 200)
         function fade(){
-        document.getElementById('img1').style.transition = "opacity 1s";
+        document.getElementById('img1').style.transition = "opacity 0.5s";
         document.getElementById('img1').style.opacity = 1;
         }
         
