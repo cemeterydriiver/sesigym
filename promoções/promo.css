@@ -300,6 +300,7 @@ i {
     
    
 }
+
 #block1{
     position: absolute;
     margin-top: 500px;
@@ -308,11 +309,14 @@ i {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-   
+   transition: 0.3s;
 
     
 }
-
+#block1:hover{
+    opacity: 1;
+    background-color: #3d68df;
+}
 #block2{
     
     position: absolute;
@@ -321,8 +325,13 @@ i {
     background-color: #219CE1;
     width: 30%;
     height: 30%;
-
+    border-radius: 20px;
+    transition: 0.3s;
+  }
     
+#block2:hover{
+    opacity: 1;
+    background-color: #3d68df;
 }
 #block3{
     position: absolute;
@@ -332,9 +341,13 @@ i {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-
+    transition: 0.3s;
     
 
+}
+#block3:hover{
+    opacity: 1;
+    background-color: #3d68df;
 }
 #block4{
     position: absolute;
@@ -344,8 +357,12 @@ i {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-
+    transition: 0.3s;
     
+}
+#block4:hover{
+    opacity: 1;
+    background-color: #3d68df;
 }
 #block5{
     position: absolute;
@@ -355,7 +372,11 @@ i {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-   
+    transition: 0.3s;
+}
+#block5:hover{
+    opacity: 1;
+    background-color: #3d68df;
 }
 #block6{
     position: absolute;
@@ -365,7 +386,11 @@ i {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-   
+    transition: 0.3s;
+}
+#block6:hover{
+    opacity: 1;
+    background-color: #3d68df;
 }
 #block7{
     position: absolute;
@@ -375,5 +400,9 @@ i {
     width: 30%;
     height: 30%;
     border-radius: 20px;
-   
+    transition: 0.3s;
+}
+#block7:hover{
+    opacity: 1;
+    background-color: #3d68df;
 }
