@@ -59,17 +59,46 @@ function switche(){
 
 //===============================================================
 //ANIMAÇÃO DE SCROLLZIN
-    function scroll1() {
+var img2 = document.getElementById('img1');  //o 2 é só pq tem outra var img
+function scroll1() {
+    img2 = document.getElementById("img1");
+    scroll();
+}
+function scroll2() {
+    img2 = document.getElementById("img2");
+    scroll();
+}
+function scroll3() {
+    img2 = document.getElementById("img3");
+    scroll();
+}
+function scroll4() {
+    img2 = document.getElementById("img4");
+    scroll();
+}
+function scroll5() {
+    img2 = document.getElementById("img5");
+    scroll();
+}
+function scroll6() {
+    img2 = document.getElementById("img6");
+    scroll();
+}    
+function scroll7() {
+    img2 = document.getElementById("img7");
+    scroll();
+}
+    function scroll() {
         let id = null;
 
-        document.getElementById('img1').style.opacity = 0;
+        img2.style.opacity = 0;
         setTimeout(fade, 200)
         function fade(){
-        document.getElementById('img1').style.transition = "opacity 0.5s";
-        document.getElementById('img1').style.opacity = 1;
+        img2.style.transition = "opacity 0.5s";
+        img2.style.opacity = 1;
         }
         
-        const elem = document.getElementById("img1");
+        const elem = img2;
         let pos = -50;
 
         clearInterval(id);
