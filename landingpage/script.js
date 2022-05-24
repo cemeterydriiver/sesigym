@@ -59,10 +59,14 @@ function switche(){
 
 //===============================================================
 //ANIMAÇÃO DE SCROLLZIN
+var pos = window.pageYOffset; //n tá funcionando ainda
+document.getElementById("pos").innerHTML = pos;
 var img2 = document.getElementById('img1');  //o 2 é só pq tem outra var img
 function scroll1() {
+    if(pos >= 100){  //em teste tbm
     img2 = document.getElementById("img1");
     scroll();
+    }
 }
 function scroll2() {
     img2 = document.getElementById("img2");

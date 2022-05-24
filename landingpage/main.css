@@ -137,13 +137,6 @@ left: 800px;
     left: 540px;
     top: 100px;
 }
-#img1{
-    width: 550px;
-    height: 300px;
-    position: absolute;
-    top: 400px;
-    right: 130px;
-}
 .img1{
     background-color: blue;
 }
@@ -166,11 +159,11 @@ left: 800px;
     background-color: yellow;
 }
 .scroll{
-margin-top: 45%;
+margin-top: 35%;
 }
 .scroll div{
     width: 400%;
-    height: 100px;
+    height: 500px;
     margin-top: 25%;
     display: flex;
 }
